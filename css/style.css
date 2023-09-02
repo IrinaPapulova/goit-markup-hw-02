@@ -18,6 +18,7 @@ body {
 .nav-list:hover,
 .nav-list:focus {
   color: #404bbf;
+  text-decoration: underline;
 }
 address a {
   color: #434455;
@@ -38,14 +39,16 @@ ul li {
   background-color: #2e2f42;
   text-align: center;
 }
-h1 {
+.hero-title {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .button-order {
+  font-family: Roboto, sans-serif;
   cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
@@ -63,8 +66,13 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.15);
 }
 
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
 .logows {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -72,38 +80,35 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-}
-header .logows {
-  color: #2e2f42;
-}
-
-.web-logo {
   color: #4d5ae5;
 }
-footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-}
-footer .logows {
-  color: #f4f4fd;
+span {
+  color: #2e2f42;
 }
 
 .title-our-values {
   color: #fff;
 }
 
-h3 {
+.web-logo {
+  color: #fff;
+}
+
+.list-ourvalues,
+.list-our-team,
+.list-portfolio {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
 }
 
-h2 {
+.title-our-team,
+.title-portfolio {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -118,4 +123,8 @@ h2 {
 }
 .title-portfolio {
   text-align: center;
+}
+
+.list-box-portfolio {
+  background-color: #fff;
 }
