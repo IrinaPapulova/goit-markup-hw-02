@@ -20,10 +20,14 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
+
+address {
+  font-style: normal;
+}
+
 address a {
   color: #434455;
   text-decoration: none;
-  font-style: normal;
   font-weight: 400;
 }
 .address-link-mail:hover,
@@ -47,6 +51,9 @@ ul li {
   letter-spacing: 0.02em;
 }
 
+button {
+  font-family: Roboto, sans-serif;
+}
 .button-order {
   font-family: Roboto, sans-serif;
   cursor: pointer;
@@ -88,19 +95,21 @@ span {
 
 .title-our-values {
   color: #fff;
+  letter-spacing: 0.02em;
 }
 
 .web-logo {
-  color: #fff;
+  color: #f4f4fd;
 }
 
-.list-ourvalues,
-.list-our-team,
+.title-list-our-values,
+.title-list-our-team,
 .list-portfolio {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .title-our-team,
@@ -127,4 +136,14 @@ span {
 
 .list-box-portfolio {
   background-color: #fff;
+}
+
+.text-list-our-team {
+  font-size: 16px;
+}
+.text-our-values {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
