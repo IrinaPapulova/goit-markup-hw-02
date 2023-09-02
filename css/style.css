@@ -30,8 +30,8 @@ address a {
   text-decoration: none;
   font-weight: 400;
 }
-.address-link-mail:hover,
-.address-link-mail:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -52,15 +52,11 @@ ul li {
   letter-spacing: 0.02em;
 }
 
-button {
-  font-family: Roboto, sans-serif;
-}
 .button-order {
   font-family: Roboto, sans-serif;
   cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
